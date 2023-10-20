@@ -1,38 +1,159 @@
-.App {
+/* Reset some default styles and apply a background color */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e2247a;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
   text-align: center;
+  background-color: #ce9e0c77;
+  color: rgba(248, 244, 244, 0.959);
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+  font-size: 2rem;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header p {
+  font-size: 1rem;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Style the navigation */
+nav {
+  background-color: #333;
   color: white;
+  text-align: center;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the main content */
+main {
+  padding: 20px;
+  background-color: white;
+}
+
+/* Style individual sections */
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: rgb(241, 231, 231);
+}
+
+.about-section {
+  background-color: #10e11e; /* Background color for the About section */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-size: 2rem; /* Heading font size */
+  margin: 0;
+  color: #edeaea; /* Text color for the heading */
+}
+
+.about-section p {
+  font-size: 1rem; /* Text font size */
+  color: #f8f6f6; /* Text color */
+  line-height: 1.5;
+}
+
+
+
+.projects-section {
+  background-color: #a91ec2; /* Background color for the Projects section */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section h2 {
+  font-size: 2rem; /* Heading font size */
+  margin: 0;
+  color: #000000; /* Text color for the heading */
+}
+
+.project {
+  margin: 20px 0;
+}
+
+.project h3 {
+  font-size: 1.5rem; /* Project title font size */
+  margin: 0;
+  color: #f4f1f1; /* Text color for the project title */
+}
+
+.project p {
+  font-size: 1rem; /* Project description font size */
+  color: #deb5b5; /* Text color for the project description */
+  line-height: 1.5;
+}
+
+
+
+.contact-section {
+  background-color: hwb(19 2% 3% / 0.627); /* Background color for the Contact section */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 2rem; /* Heading font size */
+  margin: 0;
+  color: #333; /* Text color for the heading */
+}
+
+.contact-section p {
+  font-size: 1rem; /* Text font size */
+  color: #faf5f5; /* Text color */
+  line-height: 1.5;
+}
+
+
+
+body, html {
+  background-image: url('./Images/photo-1480506132288-68f7705954bd.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: Fixed background image */
+  height: 100%; /* Ensure full height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+
+/* Apply styles to links and buttons as needed */
+a, button {
+  background-color: #333;
+  color: rgb(209, 20, 109);
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover, button:hover {
+  background-color: #555;
 }
