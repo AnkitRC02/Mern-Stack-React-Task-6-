@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link, Element } from 'react-scroll';
-import About from './Components/About';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
+
 
 import './App.css';
 
@@ -57,7 +55,7 @@ Let's embark on this exciting journey of exploration, learning, and transformati
         <p>This is a project if a code that is designed to make gaming more interesting. 
            We can use hand gestures to move the car in the straight, backward, left and right direction.
            This is built using open cv, mediapipe, pyautogui and some others modules. Hope you enjoy your racing experience.</p>
-           <img src={require('D:\\Importants\\Ethanus mern stack internship program course\\React\\portfolio\\src\\maxresdefault.jpg')} alt="Project 1" style={{ maxWidth: '300px', height: 'auto' }} />
+           <img src={require('./maxresdefault.jpg')} alt="Project 1" style={{ maxWidth: '300px', height: 'auto' }} />
       </div>
       <div className="project">
         <h3>Project 2</h3>
@@ -65,7 +63,7 @@ Let's embark on this exciting journey of exploration, learning, and transformati
         <p>This project contains the codes for a web development project on Distributive e-learning.
            In this project one can share their notes and can also download the notes shared by other users. A user can also share blogs and articles, which can be read by other users.
            If the usrs find a difficulty in solving any question they can access LearnBot.</p>
-        <img src={require('D:\\Importants\\Ethanus mern stack internship program course\\React\\portfolio\\src\\download.png')} alt="Project 2" style={{ maxWidth: '500px', height: 'auto' }} />
+        <img src={require('./download.png')} alt="Project 2" style={{ maxWidth: '500px', height: 'auto' }} />
 
       </div>
       
@@ -74,7 +72,7 @@ Let's embark on this exciting journey of exploration, learning, and transformati
         <p>Eye tracking System Using open cv and Mediapipe</p>
         <p>This project contains an eye tracking system implemented with OpenCV and MediaPipe.
            The system utilizes computer vision techniques to detect and track the movement of the user's left eye, providing insights into visual attention distribution.</p>
-        <img src={require('D:\\Importants\\Ethanus mern stack internship program course\\React\\portfolio\\src\\origin.jpg')} alt="Project 3" style={{ maxWidth: '300px', height: 'auto' }} />
+        <img src={require('./origin.jpg')} alt="Project 3" style={{ maxWidth: '300px', height: 'auto' }} />
 
       </div>
       </Element>
