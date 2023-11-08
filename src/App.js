@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="portfolio">
       <header>
-        <h1>Animesh Banerjee</h1>
+        <h1>Ankit Roy Chowdhury</h1>
         <p>BTech 3rd year Student</p>
       </header>
       <nav>
@@ -79,8 +79,8 @@ Let's embark on this exciting journey of exploration, learning, and transformati
 
       <Element name="contact" className="contact-section" style={{ minHeight: '30vh'}}>
       <h2>Contact Me</h2>
-      <p>email: animesh2@gmail.com</p>
-      <p>Phone no.: 6432156423</p>
+      <p>email: ankit2@gmail.com</p>
+      <p>Phone no.: 1234567890</p>
       </Element>
 
 
